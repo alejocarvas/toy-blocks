@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
-import { Node } from '../../models/node.model';
-import { NodesStore } from '../services/nodesStore.service';
+import { Component, OnInit } from "@angular/core";
+import { Node } from "../../models/node.model";
+import { NodesStore } from "../services/nodesStore.service";
 
 @Component({
-  selector: 'node-list',
-  templateUrl: './nodes.component.html',
-  styleUrls: ['./nodes.component.css']
+  selector: "node-list",
+  templateUrl: "./nodes.component.html",
+  styleUrls: ["./nodes.component.css"],
 })
 export class NodesComponent implements OnInit {
   expandedNodeURL: string = null;

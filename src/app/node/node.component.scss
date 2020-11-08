@@ -1,44 +1,44 @@
 @import "../../assets/stylesheets/base/colors";
 
-.wrapper{
+.wrapper {
   margin: 10px 0;
   padding: 10px;
   border: 1px solid #aaaaaa;
-  background: #f8f8f8;
+  background: #ffffff;
   border-radius: 5px;
 }
 
-.head{
+.head {
   display: flex;
   justify-content: space-between;
 }
 
-.body{
+.body {
   display: flex;
   justify-content: space-between;
 }
 
-.name{
+.name {
   margin-top: 0;
   margin-bottom: 6px;
-  color: #5bb7db;
+  color: #4d4d4d;
   font-size: 16px;
   font-weight: 700;
 }
 
-.url{
+.url {
   margin-top: 2px;
   margin-bottom: 2px;
   color: #aaaaaa;
   font-weight: 500;
 }
 
-.toolbar{
+.toolbar {
   display: flex;
   justify-content: right;
 }
 
-.expander{
+.expander {
   margin-left: 10px;
   margin-top: 7px;
 
@@ -50,7 +50,7 @@
   outline: none;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -58,20 +58,20 @@
     border-right: 7px solid transparent;
   }
 
-  &:not(.expanded){
+  &:not(.expanded) {
     &::before {
       border-bottom: 7px solid $text-color;
     }
   }
 
-  &.expanded{
+  &.expanded {
     &::before {
       border-top: 7px solid $text-color;
     }
   }
 }
 
-.blocks-wrapper{
+.blocks-wrapper {
   margin: 20px 0;
   text-align: center;
   color: $danger-color;

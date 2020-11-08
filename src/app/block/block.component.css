@@ -1,0 +1,22 @@
+div {
+  background-color: gainsboro;
+  margin: 0px 10px -10px 10px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+h4 {
+  color: blue;
+  font-weight: bold;
+  font-size: small;
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+p {
+  color: black;
+  font-weight: normal;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  margin-top: -15px;
+}
